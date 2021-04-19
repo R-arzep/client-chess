@@ -1,0 +1,32 @@
+.statsWrapper
+{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+.titleWrapper
+{
+    display: flex;
+    background-color: hsl(128, 80%, 40%);
+    padding: 0 2rem;
+    align-items: center;
+}
+.title
+{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.icon
+{
+    width: 50px;
+    height: 50px;
+    margin: 0 1rem;
+}
+
+.best , .last, .record
+{
+    & h2
+    {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,33 @@
+.navList
+{
+    display: flex;
+    background-color: hsl(0, 0%, 20%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    list-style: none;
+    margin: 0;
+}
+.title
+{
+    color: white;
+    &:hover
+    {
+        text-decoration: none;    
+    }
+}
+
+@media(max-width:600px)
+{
+    .navList
+    {
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .listItem
+    {
+        width: 90vw;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+}
