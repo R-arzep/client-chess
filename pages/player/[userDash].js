@@ -72,7 +72,7 @@ function Dashboard(props)
               {modes.map( mode => 
                 {
                   
-                  if(data.hasOwnProperty(`chess_${mode.toLowerCase()}`)){return <li key={mode} onClick={changeStat} className={styles.optionItem}><img className={styles.icon} src={`/images/${mode}.svg`}/>{mode}</li>}
+                  if(data.hasOwnProperty(`chess_${mode.toLowerCase()}`)){return <li key={mode} onClick={changeStat} className={styles.optionItem}><img className={styles.icon} src={`/images/${mode.toLowerCase()}.svg`}/>{mode}</li>}
                   else ""
                 })
               }
